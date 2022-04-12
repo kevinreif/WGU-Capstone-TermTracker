@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WGU TermTracker</string>
+    <string name="hint_term">term...</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Term not saved because it is empty.</string>
+
+</resources>

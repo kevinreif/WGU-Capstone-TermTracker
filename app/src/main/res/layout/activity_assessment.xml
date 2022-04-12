@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AssessmentActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+<!--
+        <TextView
+            android:id="@+id/term_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Term Name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/term_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="start"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/term_name"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView
+            android:id="@+id/term_dash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - "
+            android:layout_below="@id/term_name"
+            android:layout_toRightOf="@id/term_start" />
+
+        <TextView
+            android:id="@+id/term_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="end"
+            android:layout_below="@id/term_name"
+            android:layout_toRightOf="@id/term_dash" />
+
+        <TextView
+            android:id="@+id/course_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Name"
+            android:layout_below="@id/term_start"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            />
+
+        <TextView
+            android:id="@+id/course_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="start"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/course_name"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView
+            android:id="@+id/course_dash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - "
+            android:layout_below="@id/course_name"
+            android:layout_toRightOf="@id/course_start" />
+
+        <TextView
+            android:id="@+id/course_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="end"
+            android:layout_below="@id/course_name"
+            android:layout_toRightOf="@id/course_dash" />
+-->
+        <TextView
+            android:id="@+id/assessment_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Assessment Name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date: "
+            android:layout_below="@id/assessment_name"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:id="@+id/assessment_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:layout_below="@id/assessment_name"
+            android:layout_toRightOf="@id/date" />
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/assessment_date"
+            android:layout_marginLeft="16dp"
+            android:text="Type: "/>
+
+
+        <TextView
+            android:id="@+id/assessment_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type"
+            android:layout_toRightOf="@id/type"
+            android:layout_below="@id/assessment_date"/>
+
+        <TextView
+            android:id="@+id/end_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/date"
+            android:onClick="assessmentNotification"
+            android:paddingRight="16dp"
+            android:layout_alignParentRight="true"
+            android:text="Set Assessment Notification"
+            android:textColor="@color/blue" />
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
